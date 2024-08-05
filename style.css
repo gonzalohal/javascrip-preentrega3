@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+.contenedor {
+    max-width: 1000px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.productos, .carrito, .agregar-producto {
+    margin-bottom: 20px;
+}
+
+.producto {
+    background: #e9ecef;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    flex: 1 0 200px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background: #5cb85c;
+    color: white;
+}
+
+.lista-carrito {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.lista-carrito .item-carrito {
+    margin: 10px;
+}
+
+.agregar-producto h2 {
+    margin-bottom: 10px;
+}
+
+.agregar-producto .inputs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.agregar-producto input {
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.item-carrito {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background: #e9ecef;
+    margin: 10px;
+    border-radius: 5px;
+    flex: 1 0 200px;
+}
+
+.item-carrito img {
+    width: 200px;
+    height: 125px;
+    object-fit: cover;
+}
+
+.item-carrito p {
+    margin: 5px 0;
+}
